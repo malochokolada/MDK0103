@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+    android:id="@+id/about_program"
+    android:title="О программе"/>
+
+        <item
+            android:id="@+id/item"
+            android:title="Сменить тему">
+
+            <menu>
+                <item android:id="@+id/day_theme"
+                  android:title="Дневная тема"/>
+                <item android:id="@+id/night_theme"
+                    android:title="Ночная тема"/>
+            </menu>
+</item>
+</menu>

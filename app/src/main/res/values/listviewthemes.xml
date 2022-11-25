@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar.ListView" parent="Theme.AppCompat.DayNight">
+        <item name="android:background">#7C8F8E</item>
+    </style>
+</resources>
