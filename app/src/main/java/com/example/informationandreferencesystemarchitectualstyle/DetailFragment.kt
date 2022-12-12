@@ -36,7 +36,6 @@ class DetailFragment : Fragment() {
         val textView = view?.findViewById<TextView>(R.id.textView3)
         val imageView = view?.findViewById<ImageView>(R.id.imageView)
 
-        //  view?.text = selectedItem
 
         when (selectedItem) {
             "Архитектура древнего мира" -> {

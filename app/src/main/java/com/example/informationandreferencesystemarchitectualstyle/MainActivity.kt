@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         videoView!!.start()
         videoView!!.setOnCompletionListener {
             var run = Runnable {
-                val intent = Intent(this@MainActivity,HomeActivity::class.java)
+                val intent = Intent(this@MainActivity,MenuActivity::class.java)
                 startActivity(intent)
                 finish()
             }
